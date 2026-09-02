@@ -41,6 +41,7 @@ Pick a ready-made   New environment or existing?
 - **Read-only against the Figma file.** This skill never edits the file — it only reads the current selection's file key, node ID, and frame name to build the prompt text.
 - If the user already has **KMRVID Claude Skills**, it skips straight to handing over one of that bundle's ready-made slash commands instead of generating a custom prompt — no need to reinvent what that pipeline already automates.
 - The generated prompt assumes the target coding agent has **Figma MCP** access (`download_assets`, variable/style/component reads, Dev Mode annotations). It does not call any coding-side tools itself.
+- **Not a guarantee of implementation quality.** The generated prompt is a starting-point example. Actual coding accuracy depends on the Figma file's own structure (layer names, auto-layout, variable binding, etc.) and the target coding environment's own guidelines — this skill always appends that caveat alongside the generated prompt.
 
 ---
 

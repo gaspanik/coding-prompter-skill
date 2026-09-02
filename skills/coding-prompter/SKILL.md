@@ -152,6 +152,10 @@ If the design has annotations (Dev Mode notes or comments), read them via Figma 
 
 ---
 
+After presenting the prompt, always add the following note:
+
+> ⚠️ This prompt is a starting-point example, not a guarantee of the best coding result. Actual accuracy depends on the Figma file's structure (layer names, auto-layout, variable binding, etc.) and the coding environment's own guidelines.
+
 ## Remarks
 
 - If no frame is currently selected, guide the user to select one first
