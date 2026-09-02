@@ -13,7 +13,13 @@ description: >-
 
 # Coding Prompt Generator
 
+**Ver:** ver.202609022005
+
 A skill that generates a prompt for a coding agent to implement a Figma frame whose design is finished.
+
+**Output language:** All user-facing output is English. If the user writes in another language, follow their language instead.
+
+**Environment:** This skill runs inside Figma's agent environment. The target frame's file key, node ID, and name are read from the current canvas selection automatically — no explicit script execution (e.g. `evaluate_script`) is needed to get this basic selection info.
 
 ## Execution Flow
 
