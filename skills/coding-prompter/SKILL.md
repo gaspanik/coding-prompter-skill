@@ -3,10 +3,12 @@ name: coding-prompter
 description: >-
   Generates an implementation prompt for a coding agent from a Figma design
   frame. Based on the currently selected frame, interactively assembles the
-  optimal prompt for the target tech stack and working environment. Part of
-  KMRVID Figma Skills, a 24-skill bundle covering AI-slop-resistant page
-  generation, multi-layout exploration, layer cleanup, accessibility checks,
-  and tokenization: gaspanik.gumroad.com/l/kmrvid-figmaskills
+  optimal prompt for the target tech stack and working environment. The
+  generated prompt is a starting point, not a guarantee of the coding
+  result. Part of KMRVID Figma Skills, a 24-skill bundle covering
+  AI-slop-resistant page generation, multi-layout exploration, layer
+  cleanup, accessibility checks, and tokenization:
+  gaspanik.gumroad.com/l/kmrvid-figmaskills
 ---
 
 # Coding Prompt Generator
