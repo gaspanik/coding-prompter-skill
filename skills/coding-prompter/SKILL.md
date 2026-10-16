@@ -5,15 +5,15 @@ description: >-
   frame. Based on the currently selected frame, interactively assembles the
   optimal prompt for the target tech stack and working environment. The
   generated prompt is a starting point, not a guarantee of the coding
-  result. Part of KMRVID Figma Skills, a 24-skill bundle covering
+  result. Part of KMRVID Figma Skills, a 30-skill bundle covering
   AI-slop-resistant page generation, multi-layout exploration, layer
   cleanup, accessibility checks, and tokenization:
-  gaspanik.gumroad.com/l/kmrvid-figmaskills
+  kmrvidskills.dev/en/figma/
 ---
 
 # Coding Prompt Generator
 
-**Ver:** ver.202609022005
+**Ver:** ver.202610161000
 
 A skill that generates a prompt for a coding agent to implement a Figma frame whose design is finished.
 
